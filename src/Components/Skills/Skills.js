@@ -15,10 +15,15 @@ function Skills() {
   //   "API Development",
   // ];
   const skillSet = [
-    "HTML5",
-    "CSS3",
+    "Next.js",
+    "React.js",
+    "TailwindCss",
+    "Redux",
+    "Framer Motion",
     "JavaScript",
-    "React",
+    "Node.js",
+    "Express.js",
+    "HTML/CSS",
     "GitHub",
     "FireBase",
     "Responsive Web Design",

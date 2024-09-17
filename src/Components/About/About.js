@@ -1,13 +1,18 @@
 import React from "react";
-import selfImage from "../../Assets/SelfImage-min.png";
+// import selfImage from "../../Assets/SelfImage-min.png";
+import selfImage from "../../Assets/T Vicky sharpimag.jpg";
 
 function About() {
   return (
     <div id="About" className=" sm:mt-12 mt-8 sm:flex items-center">
       <div className=" sm:w-1/2 w-full flex">
-        <img src={selfImage} alt="" className="sm:w-full w-72 mx-auto" />
+        <img
+          src={selfImage}
+          alt=""
+          className="aspect-auto sm:w-[80%] w-72 mx-auto rounded"
+        />
       </div>
-      <div className=" sm:w-1/2 sm:mt-0 mt-2">
+      <div className=" sm:w-1/2 sm:mt-0 mt-5">
         <h2 className="headFont sm:text-3xl text-2xl font-semibold">
           Meet the Developer<span className="ms-1 relative bottom-1">👨‍💻</span>
         </h2>
@@ -55,7 +60,7 @@ function About() {
         <div className="flex sm:mt-6 mt-4">
           <a
             target="_blank"
-            href="/T Vicky Frontend Resume.pdf"
+            href="/T Vicky resume Next.js Developer.pdf"
             className="flex items-center bg-slate-800 text-white py-1 px-2 rounded hover:scale-105 transition-all duration-150 ease-in-out"
           >
             Resume{" "}

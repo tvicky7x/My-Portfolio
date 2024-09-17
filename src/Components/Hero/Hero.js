@@ -44,7 +44,7 @@ function Hero() {
         <p className="sm:mt-4 mt-3 text-lg">
           Hi👋, I'm a{" "}
           <span className="bg-yellow-200 px-1 text-slate-950">
-            Frontend Developer,
+            Next.js Developer,
           </span>{" "}
           and I'm{" "}
           <span className="underline decoration-lime-500 italic">
@@ -53,18 +53,18 @@ function Hero() {
           about making <span className="font-medium">websites</span> come to
           life with{" "}
           <span className="underline decoration-rose-500 italic">
-            beautiful designs
+            seamless functionality
           </span>{" "}
           and{" "}
           <span className="underline decoration-sky-500 italic">
-            seamless interactions
+            responsive designs
           </span>
           .
         </p>
         <div className="flex sm:mt-6 mt-4">
           <a
             target="_blank"
-            href="/T Vicky Frontend Resume.pdf"
+            href="/T Vicky resume Next.js Developer.pdf"
             className="flex items-center bg-slate-800 text-white py-1 px-2 rounded hover:scale-105 transition-all duration-150 ease-in-out"
           >
             Resume{" "}
